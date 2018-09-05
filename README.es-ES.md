@@ -214,8 +214,8 @@ npm test -- 'LinkedList'
 
 **Campo de Juegos**
 
-Puede jugar con estructuras de datos y algoritmos en el archivo `./src/playground/playground.js` y escribir 
-pruebas para ello en `./src/playground/__test__/playground.test.js`.
+Puede jugar con estructuras de datos y algoritmos en el archivo `./src/playground/playground.ts` y escribir 
+pruebas para ello en `./src/playground/__test__/playground.test.ts`.
 
 A continuación, simplemente ejecute el siguiente comando para comprobar si el código funciona como se espera:
 

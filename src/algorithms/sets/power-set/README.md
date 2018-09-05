@@ -47,7 +47,7 @@ what we need: it shows by its bits (`0` or `1`) whether to include related
 element from the set or not. For example, for the set `{1, 2, 3}` the binary 
 number of `0b010` would mean that we need to include only `2` to the current set.
 
-> See [bwPowerSet.js](./bwPowerSet.js) file for bitwise solution.
+> See [bwPowerSet.ts](./bwPowerSet.ts) file for bitwise solution.
 
 ### Backtracking Solution
 
@@ -55,7 +55,7 @@ In backtracking approach we're constantly trying to add next element of the set
 to the subset, memorizing it and then removing it and try the same with the next
 element.
 
-> See [btPowerSet.js](./btPowerSet.js) file for backtracking solution.
+> See [btPowerSet.ts](./btPowerSet.ts) file for backtracking solution.
 
 ## References
 

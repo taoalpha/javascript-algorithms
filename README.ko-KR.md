@@ -209,7 +209,7 @@ npm test -- 'LinkedList'
 
 **Playground**
 
- `./src/playground/playground.js` 파일을 통해 자료 구조와 알고리즘을 작성하고 `./src/playground/__test__/playground.test.js`에 테스트를 작성할 수 있습니다.
+ `./src/playground/playground.ts` 파일을 통해 자료 구조와 알고리즘을 작성하고 `./src/playground/__test__/playground.test.ts`에 테스트를 작성할 수 있습니다.
 
 그리고 간단하게 아래 명령어를 통해 의도한대로 동작하는지 확인 할 수 있습니다.:
 

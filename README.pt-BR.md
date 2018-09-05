@@ -219,8 +219,8 @@ npm test -- 'LinkedList'
 
 **Parque infantil**
 
-Você pode brincar com estruturas de dados e algoritmos em `./src/playground/playground.js` arquivar e escrever
-testes para isso em `./src/playground/__test__/playground.test.js`.
+Você pode brincar com estruturas de dados e algoritmos em `./src/playground/playground.ts` arquivar e escrever
+testes para isso em `./src/playground/__test__/playground.test.ts`.
 
 Em seguida, basta executar o seguinte comando para testar se o código do seu playground funciona conforme o esperado:
 

@@ -224,8 +224,8 @@ npm test -- 'LinkedList'
 
 **Playground**
 
-You may play with data-structures and algorithms in `./src/playground/playground.js` file and write
-tests for it in `./src/playground/__test__/playground.test.js`.
+You may play with data-structures and algorithms in `./src/playground/playground.ts` file and write
+tests for it in `./src/playground/__test__/playground.test.ts`.
 
 Then just simply run the following command to test if your playground code works as expected:
 

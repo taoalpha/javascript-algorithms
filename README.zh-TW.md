@@ -155,7 +155,7 @@ npm test -- 'LinkedList'
 ```
 **練習場**
 
-你可以透過在`./src/playground/playground.js`裡面的檔案練習資料結構以及演算法，並且撰寫在`./src/playground/__test__/playground.test.js`裡面的測試程式。
+你可以透過在`./src/playground/playground.ts`裡面的檔案練習資料結構以及演算法，並且撰寫在`./src/playground/__test__/playground.test.ts`裡面的測試程式。
 
 接著直接執行下列的指令來測試你練習的 code 是否如預期運作：
 

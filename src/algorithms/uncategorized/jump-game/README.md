@@ -40,7 +40,7 @@ takes us from the first position to the last. We start from the first position
 and jump to every index that is reachable. We repeat the process until last 
 index is reached. When stuck, backtrack.
 
-> See [backtrackingJumpGame.js](backtrackingJumpGame.js) file
+> See [backtrackingJumpGame.ts](backtrackingJumpGame.ts) file
 
 **Time complexity:**: `O(2^n)`.
 There are 2<sup>n</sup> (upper bound) ways of jumping from 
@@ -63,7 +63,7 @@ index is good or bad. Let's call this array memo and let its values
 be either one of: GOOD, BAD, UNKNOWN. This technique is 
 called memoization.
 
-> See [dpTopDownJumpGame.js](dpTopDownJumpGame.js) file
+> See [dpTopDownJumpGame.ts](dpTopDownJumpGame.ts) file
 
 **Time complexity:**: `O(n^2)`.
 For every element in the array, say `i`, we are looking at the 
@@ -90,7 +90,7 @@ we will query a position to our right, that position has already be
 determined as being GOOD or BAD. This means we don't need to recurse
 anymore, as we will always hit the memo table.
 
-> See [dpBottomUpJumpGame.js](dpBottomUpJumpGame.js) file
+> See [dpBottomUpJumpGame.ts](dpBottomUpJumpGame.ts) file
 
 **Time complexity:**: `O(n^2)`.
 For every element in the array, say `i`, we are looking at the 
@@ -110,7 +110,7 @@ In other words, the left-most one. If we keep track of this left-most
 GOOD position as a separate variable, we can avoid searching for it in
 the array. Not only that, but we can stop using the array altogether.
 
-> See [greedyJumpGame.js](greedyJumpGame.js) file
+> See [greedyJumpGame.ts](greedyJumpGame.ts) file
 
 **Time complexity:**: `O(n)`.
 We are doing a single pass through the `nums` array, hence `n` steps,

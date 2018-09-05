@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/trekhleb/javascript-algorithms#readme",
   "devDependencies": {
-    "@types/jest": "^23.1.4",
+    "@types/jest": "^23.3.1",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "codecov": "^3.0.2",
@@ -46,8 +46,10 @@
     "eslint-plugin-jest": "^21.17.0",
     "eslint-plugin-jsx-a11y": "^6.1.0",
     "eslint-plugin-react": "^7.10.0",
-    "jest": "^23.3.0",
-    "pre-commit": "^1.2.2"
+    "jest": "^23.5.0",
+    "pre-commit": "^1.2.2",
+    "ts-jest": "^23.1.4",
+    "typescript": "^3.0.3"
   },
   "dependencies": {}
 }

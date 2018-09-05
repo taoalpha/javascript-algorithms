@@ -218,8 +218,8 @@ npm test -- 'LinkedList'
 
 **Playground**
 
-Możesz pociwiczyć ze strukturą danych i algorytmami w `./src/playground/playground.js` zakartotekuj i napisz
-testy do tego w `./src/playground/__test__/playground.test.js`.
+Możesz pociwiczyć ze strukturą danych i algorytmami w `./src/playground/playground.ts` zakartotekuj i napisz
+testy do tego w `./src/playground/__test__/playground.test.ts`.
 
 Następnie uruchom następującą komendę w celu przetestowania czy twoje kod działa według oczekiwań: 
 

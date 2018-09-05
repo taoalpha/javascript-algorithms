@@ -214,8 +214,8 @@ npm test -- 'LinkedList'
 **Tests personnalisés**
 
 Vous pouvez manipuler les structures de données et algorithmes présents dans ce 
-dépôt avec le fichier `./src/playground/playground.js` et écrire vos propres 
-tests dans file `./src/playground/__test__/playground.test.js`.
+dépôt avec le fichier `./src/playground/playground.ts` et écrire vos propres 
+tests dans file `./src/playground/__test__/playground.test.ts`.
 
 Vous pourrez alors simplement exécuter la commande suivante afin de tester si 
 votre code fonctionne comme escompté
