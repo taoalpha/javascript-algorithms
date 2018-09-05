@@ -1,10 +1,4 @@
-/**
- * @param {number} number
- * @param {number} bitPosition - zero based.
- * @param {number} bitValue - 0 or 1.
- * @return {number}
- */
-export default function updateBit(number, bitPosition, bitValue) {
+export default function updateBit(number: number, bitPosition: number, bitValue: 0|1): number {
   // Normalized bit value.
   const bitValueNormalized = bitValue ? 1 : 0;
 
